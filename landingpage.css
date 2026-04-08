@@ -48,3 +48,23 @@ nav{
     font-size: 2em;
     display: none;
 }
+
+/* --header-media query-- */
+
+@media(max-width:667px){
+    .logo{
+        width: 70px;
+    }
+    .menu-list{
+        display: none;
+    }
+    .btn-icon button{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+    nav{
+        justify-content: space-between;
+    }
+}
